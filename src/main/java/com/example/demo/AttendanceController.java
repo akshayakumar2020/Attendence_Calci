@@ -14,7 +14,6 @@ public class AttendanceController {
 
     @GetMapping("/")
     public String home(Model model) {
-        // Increment count when someone opens the home page
         visitCount++;
         
         // Send the count to the HTML
